@@ -3,12 +3,17 @@ import React, { Component } from 'react';
 import './styles/global';
 
 import SideBar from './components/sidebar';
+import Player from './components/player';
 
-class App extends Component {
-  static state = {};
-  render() {
-    return <SideBar />;
-  }
-}
+import { Wrapper, Container } from './styles/components';
+
+const App = () => (
+  <Wrapper>
+    <Container>
+      <SideBar />
+    </Container>
+    <Player />
+  </Wrapper>
+);
 
 export default App;

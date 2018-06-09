@@ -47,7 +47,10 @@ const SideBar = () => (
       </Nav>
       <Nav>
         <li>
-          <span>Best of musices</span>
+          <span>PLAYLISTS</span>
+        </li>
+        <li>
+          <a href="">Best of musics</a>
         </li>
         <li>
           <a href="">The best of the rock</a>
