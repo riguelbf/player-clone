@@ -10,3 +10,9 @@ export const Container = styled.div`
   flex: 1;
   display: flex;
 `;
+
+export const Content = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+`;
